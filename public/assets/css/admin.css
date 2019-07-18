@@ -1,0 +1,22 @@
+:root{
+    --main-color-yellow: #b6a575;
+    --main-color-black: #2f3138;
+    --main-color-white: white;
+    /* background-image: */
+    --linear-fond: linear-gradient(to right, #92804d 0%, #b6a575 51%, #92804d 100%);
+}
+
+.menu{
+    width: 100%;
+    min-height: 100vh;
+    color: var(--main-color-white);
+    background-color: var(--main-color-black);
+}
+
+.menu-title{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+    background-color: #2f3138;
+    border-radius: 5px;
+}
